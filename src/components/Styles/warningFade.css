@@ -1,0 +1,17 @@
+.warning-item-fade-enter {
+  transform: translateX(100%);
+}
+
+.warning-item-fade-enter-active {
+  transform: translateX(0);
+
+  transition: transform 250ms linear;
+}
+
+.warning-item-fade-exit {
+  transform: translateX(0);
+}
+.warning-item-fade-exit-active {
+  transform: translateX(100%);
+  transition: transform 250ms linear;
+}

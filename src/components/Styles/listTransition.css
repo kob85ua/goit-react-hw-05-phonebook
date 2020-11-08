@@ -1,0 +1,27 @@
+.list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list-item-fade-enter {
+  transform: translateX(-100%);
+}
+
+.list-item-fade-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
+
+.list-item-fade-exit {
+  transform: translateX(0);
+}
+.list-item-fade-exit-active {
+  transform: translateX(-100%);
+  transition: transform 250ms linear;
+}
