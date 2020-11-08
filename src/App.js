@@ -13,10 +13,7 @@ class App extends Component {
   static defaultProps = {};
 
   static propTypes = {};
-  constructor(props) {
-    super(props);
-    this.wrapper = React.createRef();
-  }
+  
   state = {
     contacts: [],
     filter: "",
